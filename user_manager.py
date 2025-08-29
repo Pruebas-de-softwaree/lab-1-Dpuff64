@@ -30,4 +30,4 @@ if __name__ == "__main__":
     manager = UserManager()
     for i in range(500):
         manager.add_user(i,f"Yo soy Ramon {i}")
-    print(manager.get_all_names())
+    print(manager.average_user_id())
