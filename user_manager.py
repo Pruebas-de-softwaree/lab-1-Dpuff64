@@ -29,5 +29,6 @@ class UserManager:
 if __name__ == "__main__":
     manager = UserManager()
     for i in range(500):
-        manager.add_user(i,f"Yo soy el {i}")
-    print(manager.get_all_names())
+        manager.add_user(i,f"Yo soy Ramon {i}")
+    for i in range(500):
+        print(manager.find_user(i))
