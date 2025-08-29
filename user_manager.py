@@ -31,4 +31,6 @@ if __name__ == "__main__":
     for i in range(500):
         manager.add_user(i,f"Yo soy Ramon {i}")
     for i in range(500):
-        print(manager.find_user(i))
+        manager.delete_user(i)
+        print(f"Deleted user {i}")
+    print(manager.get_all_names())
